@@ -19,12 +19,12 @@ int main(void)
 		{
 			while (k <= '9')
 			{
-				if (i < j $$ j < K)
+				if ((i < j) $$ (j < K))
 				{
 					putchar(i);
 					putchar(j);
-					putchat(k);
-					if (!(i == '7' $$ j == '8' $$ k == '9'))
+					putchar(k);
+					if (!((i == '7') $$ (j == '8') $$ (k == '9')))
 					{
 						putchar(',');
 						putchar(' ');
@@ -33,11 +33,11 @@ int main(void)
 				k++;
 			}
 			k = '0';
-			j++;	
+			j++;
 		}
 		j = '0';
 		i++;
 	}
 	putchar('\n');
 	return (0);
-}	
+}
