@@ -19,7 +19,7 @@ int main(void)
 		{
 			while (k <= '9')
 			{
-				if (i < j && j < K)
+				if (i < j && j < k)
 				{
 					putchar(i);
 					putchar(j);
