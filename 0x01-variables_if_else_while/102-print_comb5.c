@@ -24,7 +24,7 @@ int main(void)
 				putchar((j / 10) + '0');
 				if (i != 98)
 				{
-					pitchar(',');
+					putchar(',');
 					putchar(' ');
 				}
 			}
