@@ -9,7 +9,7 @@
  *
  * Description: the function prints product of two numbers
  *
- * Retur: returns nothing
+ * Return: returns nothing
  */
 
 int mul(int a, int b)
