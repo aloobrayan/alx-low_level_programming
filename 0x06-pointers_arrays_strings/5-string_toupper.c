@@ -2,21 +2,21 @@ include "main.h"
 
 /**
  * string_toupper - changes letters of string to uppercase
- * @s: string for checking
+ * @str: string for checking
  *
  * Return: character type
  */
 
-char *string_toupper(char *s)
+char *string_toupper(char *str)
 {
 	int i;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if ((s[i] >= 'a') && (s[i] <= 'z'))
+		if ((str[i] >= 'a') && (str[i] <= 'z'))
 		{
-			s[i] = s[i] - 32;
+			str[i] = str[i] - 32;
 		}
 	}
-	return (s);
+	return (str);
 }
