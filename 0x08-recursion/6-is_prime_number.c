@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * prime_check check if number id prime number
+ * prime_check check if number is_prime_number
  * @n: iterant
  * @base: base number to check
  * Return: Always 1
