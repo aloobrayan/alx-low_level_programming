@@ -5,7 +5,7 @@
  * free_dog - function that frees dog
  * @d: point to struct dog
  *
- * Return: void
+ * Description: free memory of struct
  */
 
 void free_dog(dog_t *d)
